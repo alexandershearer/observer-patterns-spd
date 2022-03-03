@@ -173,9 +173,9 @@ class WeatherStation:
         # forcast_humadity = humidity - 0.9 * humidity
         # forcast_pressure = pressure + 0.1 * temperature - 0.21 * pressure
 
-        weather_data.setMeasurements(80, 65, 30.4)
-        weather_data.setMeasurements(82, 70, 29.2)
-        weather_data.setMeasurements(78, 90, 29.2)
+        weather_data.setMeasurements(80, 60, 30.4)
+        weather_data.setMeasurements(82, 80, 29.2)
+        weather_data.setMeasurements(78, 75, 29.2)
 
         # un-register the observer
         weather_data.removeObserver(current_display)
